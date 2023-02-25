@@ -30,7 +30,7 @@ $(function () {
     })
 
     $('#history').click(async function(){
-        await fetch(`https://script.google.com/macros/s/AKfycbw7fTP-nW-Mof6fFUJnlKGno9zvy2AgKf_ruV8V0Ty13Yfta_xT0_ZnmoDe2ZzhuXdX/exec?number=${localStorage.getItem("cs_id")}`)
+        await fetch(`https://script.google.com/macros/s/AKfycbzoqx0tP72SNyCz5KfuKfMJlqEP58jomNScZtSdXB4daVZb5TaNW_FmH9r3kOcgNBlMvQ/exec?number=${localStorage.getItem("cs_id")}`)
         .then(res=>res.json())
         .then(json=>{
             const date=["〇","×","▽","□","☆"];
