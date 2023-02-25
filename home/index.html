@@ -13,8 +13,8 @@
     <div class="imgbox">
         <img src="./img/物語.png" id="story">
         <img src="./img/伝誦.png" id="densyou">
-        <img src="./img/歴史.png">
-        <img src="./img/書庫.png">
+        <img src="./img/歴史.png" id="history">
+        <img src="./img/書庫.png" id="library">
     </div>
 
     <!--物語-->
@@ -32,7 +32,7 @@
         </div>
     </section>
 
-      <section id="check" class="modalArea">
+    <section id="check" class="modalArea">
         <div id="checkBg" class="modalBg"></div>
         <div class="modalWrapper">
           <div class="modalContents">
@@ -40,16 +40,42 @@
           </div>
           <button class="yes" id="yes">はい</button><button class="no" id="no">いいえ</button>
         </div>
-      </section>
+    </section>
 
-      <!--伝誦-->
-      <section id="densyouArea" class="modalArea">
+    <!--伝誦-->
+    <section id="densyouArea" class="modalArea">
         <div id="densyouBg" class="modalBg"></div>
         <div class="modalWrapper">
           <div class="modalContents">
             <h1>物語を交換しますか？</h1>
           </div>
           <button class="yes" id="yes1">はい</button><button class="no" id="no1">いいえ</button>
+        </div>
+    </section>
+
+    <!--歴史-->
+    <section id="historyArea" class="modalArea">
+        <div id="historyBg" class="modalBg"></div>
+        <div class="modalWrapper">
+          <div class="modalContents" id="historylist">
+            <h1>歴史</h1>
+          </div>
+          <div id="closehistoryModal" class="closeModal">
+            ×
+          </div>
+        </div>
+    </section>
+
+    <!--書庫-->
+    <section id="libraryArea" class="modalArea">
+        <div id="libraryBg" class="modalBg"></div>
+        <div class="modalWrapper">
+          <div class="modalContents" id="librarylist">
+            <h1>書庫</h1>
+          </div>
+          <div id="closelibraryModal" class="closeModal">
+            ×
+          </div>
         </div>
     </section>
 </body>

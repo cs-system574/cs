@@ -48,6 +48,10 @@ img{
     font-size:large;
 }
 
+.kaguya{
+    width: 100%;
+}
+
 /* モーダルCSS */
 .modalArea {
     display: none;
