@@ -21,6 +21,9 @@ img{
     border-radius: 100vh;
     color: #fff;
     background-color: #eb6100;
+    width: 4em;
+    height: 2em;
+    font-size:large;
 }
 #storySend:hover{
     color: #fff;
@@ -33,6 +36,9 @@ img{
     color: #000000;
     border-radius: 100vh;
     margin-right: 10px;
+    width: 4em;
+    height: 2em;
+    font-size:large;
 }
 .no{
     font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
@@ -41,6 +47,9 @@ img{
     color: #000000;
     border-radius: 100vh;
     margin-right: 10px;
+    width: 4em;
+    height: 2em;
+    font-size:large;
 }
 
 /* モーダルCSS */
