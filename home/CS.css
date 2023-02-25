@@ -17,3 +17,64 @@ img{
     height: 95%;
     gap: 5px;
 }
+#storySend{
+    border-radius: 100vh;
+    color: #fff;
+    background-color: #eb6100;
+}
+#storySend:hover{
+    color: #fff;
+    background: #000000;
+}
+.yes{
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+    font-weight: bold;
+    background-color: darksalmon;
+    color: #000000;
+    border-radius: 100vh;
+    margin-right: 10px;
+}
+.no{
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+    font-weight: bold;
+    background-color: rgb(128, 235, 249);
+    color: #000000;
+    border-radius: 100vh;
+    margin-right: 10px;
+}
+
+/* モーダルCSS */
+.modalArea {
+    display: none;
+    position: fixed;
+    z-index: 10; /*サイトによってここの数値は調整 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .modalBg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30,30,30,0.9);
+  }
+  
+  .modalWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 70%;
+    max-width: 500px;
+    padding: 10px 30px;
+    background-color: #fff;
+    border-radius: 2vh;
+  }
+  
+  .closeModal {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    cursor: pointer;
+  }

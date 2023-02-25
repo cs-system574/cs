@@ -7,12 +7,50 @@
     <title>CS</title>
     <link rel="stylesheet" href="./CS.css" type="text/css">
 </head>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./CS.js"></script>
 <body>
     <div class="imgbox">
-        <img src="./img/物語.png">
-        <img src="./img/伝誦.png">
+        <img src="./img/物語.png" id="story">
+        <img src="./img/伝誦.png" id="densyou">
         <img src="./img/歴史.png">
         <img src="./img/書庫.png">
     </div>
+
+    <!--物語-->
+    <section id="modalArea" class="modalArea">
+        <div id="modalBg" class="modalBg"></div>
+        <div class="modalWrapper">
+          <div class="modalContents">
+            <h1>物語</h1>
+            <textarea rows="10" cols="35%"></textarea>
+          </div>
+          <button id="storySend">完了</button>
+          <div id="closeModal" class="closeModal">
+            ×
+          </div>
+        </div>
+    </section>
+
+      <section id="check" class="modalArea">
+        <div id="checkBg" class="modalBg"></div>
+        <div class="modalWrapper">
+          <div class="modalContents">
+            <h1>これで確定で良いですか？</h1>
+          </div>
+          <button class="yes" id="yes">はい</button><button class="no" id="no">いいえ</button>
+        </div>
+      </section>
+
+      <!--伝誦-->
+      <section id="densyouArea" class="modalArea">
+        <div id="densyouBg" class="modalBg"></div>
+        <div class="modalWrapper">
+          <div class="modalContents">
+            <h1>物語を交換しますか？</h1>
+          </div>
+          <button class="yes" id="yes1">はい</button><button class="no" id="no1">いいえ</button>
+        </div>
+    </section>
 </body>
 </html>
