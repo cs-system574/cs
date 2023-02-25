@@ -43,10 +43,14 @@
   /* 以下ボタンスタイル */
   #send {
     padding: 5px;
-    background-color: #ff4646;
-    border: 1px solid #ff4646;
+    background-color: #ffb67e;
+    border: 1px solid #ffb67e;
+    width: 3em;
+    height: 2em;
+    font-size:large;
+    color: black;
     border-radius: 10px;
     cursor: pointer;
-    margin-left: 3em;
+    margin: 1em;
     font-family: "YuGothic","Yu Gothic","Meiryo","ヒラギノ角ゴ","sans-serif";
   }
