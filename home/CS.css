@@ -2,10 +2,19 @@ html{
     height: 100%;
 }
 body{
-    background-image: url("./img/スマホ画面.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+    touch-action: manipulation;
+    position: relative;
+}
+.rabbit{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 2px;
+    position: absolute;
 }
 img{
     width: 23%;
@@ -16,6 +25,7 @@ img{
     align-items: flex-end;
     height: 95%;
     gap: 5px;
+    position: absolute;
 }
 #storySend{
     border-radius: 100vh;
