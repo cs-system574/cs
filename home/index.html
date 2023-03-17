@@ -73,11 +73,31 @@
         <div class="modalWrapper">
           <div class="modalContents" id="librarylist">
             <h1>書庫</h1>
+            <details>
+              <summary>招待コード</summary>
+              <div id="code">招待コード</div>
+              <br>※招待コードは一度しか使えません。
+            </details>
+            <details>
+              <summary>舞台</summary>
+              群馬県見滝原市南町1-6-3
+            </details>
+            <details>
+              <summary>過去の伝誦</summary>
+              <div id="densyouLog"></div>
+            </details>
           </div>
           <div id="closelibraryModal" class="closeModal">
             ×
           </div>
         </div>
     </section>
+
+     <!--ローディング画面-->
+     <section id="loadArea" class="modalArea">
+      <div class="loadWrapper">
+        <img src="./img/loading.png" id="loading">
+      </div>
+  </section>
 </body>
 </html>
